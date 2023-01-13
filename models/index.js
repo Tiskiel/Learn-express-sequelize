@@ -21,6 +21,9 @@ db.sequelize = sequelize;
 db.Genre = require('./genre.model')(sequelize);
 db.Artist = require('./artist.model')(sequelize);
 db.Track = require('./track.model')(sequelize);
+db.Member = require('./Member.model')(sequelize);
+
+
 
 
 // Ajout des relations
